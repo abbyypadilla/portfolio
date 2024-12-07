@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: serif;  
+    background-color: #272727;
+    color: #fdfde7; 
+}
+
+.navbar {
+    background-color: #e0c7cb; 
+    padding: 28px;
+    backdrop-filter: blur(10px); 
+}
+
+.navbar .container {
+    max-width: 900px; 
+    padding: 20px;  
+    background-color: #2f2f2f;
+    border-radius: 8px;    
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fdfde7; 
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #e6d5d7; 
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #272727; 
+    color: #fdfde7; 
+    text-align: center;
+    padding: 350px 50px; 
+}
+
+.hero h1 {
+    font-size: 4rem; 
+    color: #ffe2e7; 
+    font-family: 'Roboto Mono', monospace; 
+    font-weight: 700;
+    margin: 0; 
+}
+
+.hero p {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.about-hero {
+    background-color: #272727; 
+    color: #fdfde7; 
+    text-align: center;
+    padding: 150px 50px; 
+}
+
+.about-hero h1 {
+    font-size: 3.5rem; 
+    color: #ffe2e7;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 50px; 
+}
+
+.about-description {
+    font-size: 1.2rem; 
+    line-height: 1.8; 
+    margin-top: 20px; 
+    text-align: center; 
+    color: #fdfde7; 
+    padding: 20px;  
+    border: 2px solid #ffe2e7;  
+    border-radius: 8px;  
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+footer {
+    background-color: #333;
+    color: #fdfde7;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+

@@ -94,7 +94,7 @@ class UserController
         session_start();
         session_unset();
         session_destroy();
-        header('Location: /homepage'); 
+        header('Location: /'); 
         exit();
     }
 }
